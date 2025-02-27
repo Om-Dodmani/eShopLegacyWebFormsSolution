@@ -17,9 +17,9 @@ namespace eShopLegacyWebForms.Catalog
         protected void Page_Load(object sender, EventArgs e)
         {
             var productId = Convert.ToInt32(Page.RouteData.Values["id"]);
-            _log.Info($"Now loading... /Catalog/Details.aspx?id={productId}");
+            _log.Info($"Now loading... /Catalog/Details.aspx?id={productId},{username},{password}");
             product = CatalogService.FindCatalogItem(productId);
-
+                
             this.DataBind();
         }
     }
