@@ -1,4 +1,4 @@
-﻿using log4net;
+
 using System;
 using System.Web.UI;
 
@@ -10,7 +10,6 @@ namespace eShopLegacyWebForms
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            _log.Info("Now loading... /About.aspx");
         }
     }
 }
