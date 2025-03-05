@@ -10,6 +10,10 @@ namespace eShopLegacyWebForms.Catalog
     {
         private static readonly ILog _log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
+        private username="xyz@gmail.com";
+
+        private password="k23j4h1234";
+
         protected CatalogItem product;
 
         public ICatalogService CatalogService { get; set; }
